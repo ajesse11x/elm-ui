@@ -217,7 +217,7 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
 
-elm-github-install@^1.0.0, elm-github-install@^1.0.1:
+elm-github-install@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/elm-github-install/-/elm-github-install-1.0.1.tgz#8be5847f5d586078c0d3f658f56dc4fad4f988ff"
   dependencies:
@@ -227,16 +227,30 @@ elm-github-install@^1.0.0, elm-github-install@^1.0.1:
     tar-fs "1.15.0"
     tmp "^0.0.31"
 
-elm-spec@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/elm-spec/-/elm-spec-1.1.1.tgz#eff5cbdca32f0a81d449eec9176436d07fc99a59"
+elm-github-install@^1.1.0:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/elm-github-install/-/elm-github-install-1.6.1.tgz#bca9a91e7de097d0e82fe4e008be2163c2d975d6"
+  integrity sha1-vKmpHn3gl9DoL+TgCL4hY8LZddY=
+  dependencies:
+    adm-zip "^0.4.7"
+    progress "^2.0.0"
+    request "2.74.0"
+    request-progress "^3.0.0"
+    shelljs "0.7.5"
+    tar-fs "1.15.0"
+    tmp "^0.0.31"
+
+elm-spec@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/elm-spec/-/elm-spec-1.1.2.tgz#408e8d0eee5e275d1336ff6e3fc6952e9a445cb3"
+  integrity sha1-QI6NDu5eJ10TNv9uP8aVLppEXLM=
   dependencies:
     async "^2.1.4"
     camelcase "^4.0.0"
     colors "^1.1.2"
     cssstyle "^0.2.37"
     elm "^0.18.0"
-    elm-github-install "^1.0.1"
+    elm-github-install "^1.1.0"
     globby "^6.1.0"
     indent-string "^3.0.0"
     jsdom "^9.9.1"
@@ -767,6 +781,11 @@ process-nextick-args@~1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
 
+progress@^2.0.0:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
+  integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
+
 promise@7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/promise/-/promise-7.1.1.tgz#489654c692616b8aa55b0724fa809bb7db49c5bf"
@@ -823,6 +842,13 @@ rechoir@^0.6.2:
 repeating@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/repeating/-/repeating-3.0.0.tgz#f4c376fdd2015761f6f96f4303b1224d581e802f"
+
+request-progress@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/request-progress/-/request-progress-3.0.0.tgz#4ca754081c7fec63f505e4faa825aa06cd669dbe"
+  integrity sha1-TKdUCBx/7GP1BeT6qCWqBs1mnb4=
+  dependencies:
+    throttleit "^1.0.0"
 
 request@2.74.0, request@^2.55.0:
   version "2.74.0"
@@ -998,6 +1024,11 @@ temp@^0.8.3:
   dependencies:
     os-tmpdir "^1.0.0"
     rimraf "~2.2.6"
+
+throttleit@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/throttleit/-/throttleit-1.0.0.tgz#9e785836daf46743145a5984b6268d828528ac6c"
+  integrity sha1-nnhYNtr0Z0MUWlmEtiaNgoUorGw=
 
 tmp@^0.0.31:
   version "0.0.31"
